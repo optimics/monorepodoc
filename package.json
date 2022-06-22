@@ -42,6 +42,10 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
-    "@optimics/eslint-config": "^0.5.4"
+    "@optimics/eslint-config": "^0.5.4",
+    "jest": "^28.1.1",
+    "jest-runner-eslint": "^1.0.1",
+    "jest-watch-select-projects": "^2.0.0",
+    "jest-watch-typeahead": "^1.1.0"
   }
 }
