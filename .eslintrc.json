@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@optimics/eslint-config"
+  ],
+  "env": {
+    "es6": true,
+    "node": true
+  }
+}
