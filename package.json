@@ -27,9 +27,11 @@
     "node": ">=16"
   },
   "dependencies": {
+    "archiver": "^5.3.1",
     "fast-glob": "^3.2.11",
     "pino": "^8.1.0",
     "pino-pretty": "^8.1.0",
+    "pretty-bytes": "^6.0.0",
     "tmp-promise": "^3.0.3",
     "which": "^2.0.2"
   },
