@@ -27,6 +27,6 @@ jobs:
       - name: Test packages
         run: npm test
       - name: Publish packages
-        run: lerna publish from-git --yes --no-verify-access
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_KEY }}
