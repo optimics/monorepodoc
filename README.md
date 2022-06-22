@@ -24,6 +24,8 @@ monorepo/
 npm install --save-dev @optimics/monorepodoc
 ```
 
+Supports only Node.js >= 16
+
 ## Running
 
 Monorepodoc will automatically resolve all of your monorepo packages and put build outputs into `dist/docs`.
