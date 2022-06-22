@@ -1,0 +1,41 @@
+{
+  "name": "@optimics/monorepodoc",
+  "version": "0.1.0",
+  "description": "JSDoc wrapper that generates documentation for each Lerna package",
+  "main": "dist/monorepodoc",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimics/monorepo-jsdoc.git"
+  },
+  "keywords": [
+    "jsdoc",
+    "monorepo",
+    "lerna",
+    "workspace",
+    "documentation"
+  ],
+  "author": "Pavel Žák <pavel@zak.global>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optimics/monorepo-jsdoc/issues"
+  },
+  "homepage": "https://github.com/optimics/monorepo-jsdoc#readme",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.11",
+    "pino": "^8.1.0",
+    "pino-pretty": "^8.1.0",
+    "tmp-promise": "^3.0.3",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@optimics/eslint-config": "^0.5.4"
+  }
+}
