@@ -2,7 +2,10 @@
   "name": "@optimics/monorepodoc",
   "version": "0.1.0",
   "description": "JSDoc wrapper that generates documentation for each Lerna package",
-  "main": "dist/monorepodoc",
+  "main": "dist/monorepodoc.mjs",
+  "bin": {
+    "monorepodoc": "dist/monorepodoc.mjs"
+  },
   "scripts": {
     "test": "jest"
   },
