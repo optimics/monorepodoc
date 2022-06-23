@@ -1,5 +1,10 @@
 # monorepodoc
 
+[![](https://badgen.net/github/checks/optimics/monorepodoc)](https://github.com/optimics/monorepodoc/actions)
+[![](https://badgen.net/github/tag/optimics/monorepodoc)](https://github.com/optimics/monorepodoc/tags)
+[![](https://badgen.net/npm/v/@optimics/monorepodoc)](https://www.npmjs.com/package/@optimics/monorepodoc)
+[![](https://badgen.net/npm/dm/@optimics/monorepodoc)](https://www.npmjs.com/package/@optimics/monorepodoc)
+
 Zeroconf [JSDoc](https://jsdoc.app/) wrapper with support for [redoc](https://github.com/Redocly/redoc) and mermaid that generates documentation for each of your monorepo projects and includes READMEs.
 
 ## Directories
