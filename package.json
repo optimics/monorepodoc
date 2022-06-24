@@ -24,7 +24,7 @@
     "node": ">=16"
   },
   "bin": {
-    "monorepodoc": "dist/monorepodoc.mjs"
+    "monorepodoc": "lib/monorepodoc.mjs"
   },
   "scripts": {
     "test": "jest"
