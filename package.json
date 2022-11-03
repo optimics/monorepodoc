@@ -1,6 +1,6 @@
 {
   "name": "@optimics/monorepodoc",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "JSDoc wrapper that generates documentation for each Lerna package",
   "main": "lib/monorepodoc.mjs",
   "author": "Pavel Žák <pavel@zak.global>",
